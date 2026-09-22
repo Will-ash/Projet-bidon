@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0">
   <diagram name="Page-1" id="NYUIB9FI021l5BlJtdbg">
-    <mxGraphModel dx="2357" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1717" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,6 +147,12 @@
         </mxCell>
         <mxCell id="5IeSeXfrgybNpuYzRE9K-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="&lt;div&gt;- Définition sur la chronique d&#39;un début d&#39;infiltration et d&#39;une fin d&#39;infiltration&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Calcule de la différence entre chaque valeurs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Si la différence entre deux valeurs dépasse un seuil de tolérance, 3 fois consécutives, alors le numéro de plateau change. Le seuil de tolérance est lié à l&#39;incertitude du capteur (tol = er_tol * r_tol)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Suppression des plateaux considérés comme trop petit. filtre = moyenne longueur plateau/paramètre défini (r_lgth)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Chaque fin de plateau est égale à la médiane de l&#39;ensemble du plateau&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Calcule de la différence entre les points de chaque fin de plateau. Une différence positive entraine la suppression du point&lt;/div&gt;" vertex="1">
           <mxGeometry height="420" width="296" x="692" y="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="5IeSeXfrgybNpuYzRE9K-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font&gt;&lt;u&gt;Méthode Italien moyenne :&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="1060" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="5IeSeXfrgybNpuYzRE9K-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="&lt;div&gt;- Définition sur la chronique d&#39;un début d&#39;infiltration et d&#39;une fin d&#39;infiltration&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Traçage d&#39;une moyenne mobile, sur un temps&amp;nbsp; (valeur par défaut 10 secondes) ps: je ne suis pas sur que ce soit en secondes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Sélection des points de la moyenne mobile, tous les x drop de tension (à fixer soit même)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="420" width="296" x="1092" y="2090" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

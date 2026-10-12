@@ -21,7 +21,7 @@
         </mxCell>
         <mxCell id="n8ZXuJxr7fLm-53ztS49-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="190" y="1672.5316455696202" as="sourcePoint" />
+            <mxPoint x="190" y="1230" as="sourcePoint" />
             <mxPoint x="190" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -223,8 +223,8 @@
         <mxCell id="zmcwH1kLG_5Q-xYCPw8v-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="Humidité résiduelle&amp;nbsp;θr peut être approchée comme étant égale à 0" vertex="1">
           <mxGeometry height="47.5" width="200" x="1848.36" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="qhNH78t8y1Q_wre_9ulW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;u&gt;Conditions d&#39;application de la méthode BEST&lt;/u&gt; :&lt;/div&gt;&lt;div&gt;- sol isotrope homogène, dont le profil hydrique initial est homogène&lt;/div&gt;&lt;div&gt;- humidité initiale &amp;lt; 0,25 de l&#39;humidité à saturation&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="380" x="1210" y="-150" as="geometry" />
+        <mxCell id="qhNH78t8y1Q_wre_9ulW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;u&gt;Conditions d&#39;application de la méthode BEST&lt;/u&gt; :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- sol isotrope homogène, dont le profil hydrique initial est homogène&lt;/div&gt;&lt;div&gt;- humidité initiale &amp;lt; 0,25 de l&#39;humidité à saturation&lt;/div&gt;&lt;div&gt;- que le flux d&#39;infiltration soit supérieur au flux d&#39;infiltration infinie&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="380" x="1210" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="qhNH78t8y1Q_wre_9ulW-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;u&gt;Application aux sols ayant une croute de battance en surface :&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;BEST reste utilisable, mais il faut faire attention à l&#39;interprétation du Ksat qui est effectuée&lt;/div&gt;&lt;div&gt;En effet, les paramètres hydrodynamiques estimés seront d&#39;avantage représentatif de la zone explorée durant l&#39;infiltration que de la croute en surface&lt;/div&gt;&lt;div&gt;La conductivité estimée est donc une conductivité effective et non une propriétés intrasec à une couche de sol&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="380" x="990" y="-20" as="geometry" />

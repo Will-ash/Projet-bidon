@@ -158,14 +158,20 @@
         <mxCell id="n8ZXuJxr7fLm-53ztS49-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Modèle de Haverkamp, adapté pour BEST avec q+&lt;span class=&quot;mwe-math-element mwe-math-element-inline&quot; id=&quot;mwEw&quot;&gt;&lt;span class=&quot;mwe-math-mathml-a11y&quot; style=&quot;display: none;&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;br/&gt;  &lt;br/&gt;    &lt;mrow&gt;&lt;br/&gt;      &lt;mstyle displaystyle=&quot;true&quot; scriptlevel=&quot;0&quot;&gt;&lt;br/&gt;        &lt;mi mathvariant=&quot;normal&quot;&gt;∞&lt;/mi&gt;&lt;br/&gt;      &lt;/mstyle&gt;&lt;br/&gt;    &lt;/mrow&gt;&lt;br/&gt;    &lt;br/&gt;  &lt;br/&gt;&lt;/math&gt;&lt;/span&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/c26c105004f30c27aa7c2a9c601550a4183b1f21&quot; class=&quot;mwe-math-fallback-image-inline mw-invert skin-invert&quot; aria-hidden=&quot;true&quot; style=&quot;vertical-align: -0.338ex; width:2.324ex; height:1.676ex;&quot; alt=&quot;{\displaystyle \infty }&quot;&gt;&amp;nbsp;= flux d&#39;infiltration, considéré comme constant&lt;/span&gt;" vertex="1">
           <mxGeometry height="70" width="200" x="1163.46" y="550" as="geometry" />
         </mxCell>
+        <mxCell id="zmcwH1kLG_5Q-xYCPw8v-1" edge="1" parent="1" source="n8ZXuJxr7fLm-53ztS49-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n8ZXuJxr7fLm-53ztS49-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n8ZXuJxr7fLm-53ztS49-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;S&amp;nbsp;&lt;/div&gt;&lt;div&gt;calculé en considèrent l&#39;infiltration en début de test, soumise uniquement aux forces de succion capillaire. B est donc égale à 0&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="200" x="920" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="zmcwH1kLG_5Q-xYCPw8v-2" edge="1" parent="1" source="n8ZXuJxr7fLm-53ztS49-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n8ZXuJxr7fLm-53ztS49-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8ZXuJxr7fLm-53ztS49-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Ksat&lt;/div&gt;&lt;div&gt;calculé en optimisant le fitting et en vérifiant que le modèle est bien applicable (uniquement en condition transitoire)&lt;/div&gt;&lt;div&gt;Ksat = q+&lt;span class=&quot;mwe-math-element mwe-math-element-inline&quot; id=&quot;mwEw&quot;&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/c26c105004f30c27aa7c2a9c601550a4183b1f21&quot; class=&quot;mwe-math-fallback-image-inline mw-invert skin-invert&quot; aria-hidden=&quot;true&quot; style=&quot;vertical-align: -0.338ex; width:2.324ex; height:1.676ex;&quot; alt=&quot;{\displaystyle \infty }&quot;&gt;&amp;nbsp;* AS&lt;sup&gt;2&lt;/sup&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="260" x="800" y="860" as="geometry" />
         </mxCell>
         <mxCell id="n8ZXuJxr7fLm-53ztS49-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Calcule de hg et traçage des courbes&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="220" x="1230" y="760" as="geometry" />
+          <mxGeometry height="80" width="220" x="1230" y="780" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

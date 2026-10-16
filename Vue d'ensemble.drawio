@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="D4npocBUKK52vW3pfGge-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=default;strokeWidth=10;" value="" vertex="1">
-          <mxGeometry height="2493.5" width="7513.4" x="1030" y="850" as="geometry" />
+          <mxGeometry height="2493.5" width="6370" x="1030" y="850" as="geometry" />
         </mxCell>
         <mxCell id="D4npocBUKK52vW3pfGge-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=default;strokeWidth=10;" value="" vertex="1">
-          <mxGeometry height="1570" width="3100" x="4590" y="1546.26" as="geometry" />
+          <mxGeometry height="1570" width="2560" x="4590" y="1546.26" as="geometry" />
         </mxCell>
         <mxCell id="D4npocBUKK52vW3pfGge-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="930" width="2380" x="1540" y="-1240" as="geometry" />
@@ -469,6 +469,12 @@
         </mxCell>
         <mxCell id="D4npocBUKK52vW3pfGge-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;Fonctionnement en mode solution inverse&lt;/u&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="440" x="6470" y="1993.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D4npocBUKK52vW3pfGge-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Pour estimer les propriétés hydrodynamiques, le modèle hydrus a besoin d&#39;assez d&#39;information pour pouvoir converger vers une solution unique. Il ne doit donc pas y avoir trop de paramètres à trouver.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="480" x="6450" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="D4npocBUKK52vW3pfGge-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Études qui ont déjà utilisées hydrus en mode solution inverse :&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- Nakhari et Simunak, 2014 : ils ont testés si hydrus pouvais prédire le flux d&#39;eau et les variations de température. Plusieurs scénario (paramétrages) ont été modélisé.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&amp;gt; Dans certain cas, le modèle n&#39;arrivait pas à converger vers une solution unique&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- Mashayeki et al., 2016 : Il ont essayé de trouver l&#39;optimisation idéale pour utiliser la solution inverse de hydrus avec des tests en double anneau.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&amp;gt; L&#39;infiltration est surtout sensible à Ks, n, l&#39;humidité à saturation | la meilleur combinaison est : mesurer l&#39;humidité à saturation, fixer l&#39;humidité résiduelle et optimiser les paramètres de vangenuchten et la conductivité à saturation&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="286" width="480" x="6450" y="2180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
